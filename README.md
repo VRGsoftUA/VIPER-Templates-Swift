@@ -5,5 +5,7 @@ Includes default, storyboard and tests templates.
 
 Just run:
 mkdir -p ~/Library/Developer/Xcode/Templates/File\ Templates
+
 cd ~/Library/Developer/Xcode/Templates/File\ Templates
+
 git clone https://github.com/m4f1h4rd/VIPER-Templates-Swift
