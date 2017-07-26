@@ -1,6 +1,6 @@
 //
 //  ___FILENAME___
-//  Project: ___PROJECTNAME___
+//  Project: SM___PROJECTNAME___
 //
 //  Module: ___VARIABLE_viperModuleName___
 //
@@ -10,9 +10,9 @@
 
 import UIKit
 
-class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController {
+class SM___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController {
 
-	var output: ___FILEBASENAMEASIDENTIFIER___ViewOutput!
+	var output: SM___FILEBASENAMEASIDENTIFIER___ViewOutput!
 
     #if DEBUG
     deinit {
@@ -32,7 +32,7 @@ class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController {
 }
 
 
-extension ___FILEBASENAMEASIDENTIFIER___ViewController: ___FILEBASENAMEASIDENTIFIER___ViewInput {
+extension SM___FILEBASENAMEASIDENTIFIER___ViewController: SM___FILEBASENAMEASIDENTIFIER___ViewInput {
 
 	func updateViewWith(title: String)
     {

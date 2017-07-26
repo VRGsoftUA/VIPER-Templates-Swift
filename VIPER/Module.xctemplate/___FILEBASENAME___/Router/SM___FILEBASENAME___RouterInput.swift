@@ -1,6 +1,6 @@
 //
 //  ___FILENAME___
-//  Project: ___PROJECTNAME___
+//  Project: SM___PROJECTNAME___
 //
 //  Module: ___VARIABLE_viperModuleName___
 //
@@ -10,6 +10,6 @@
 
 import Foundation
 
-protocol ___FILEBASENAME___ModuleInput: class {
-    
+protocol SM___FILEBASENAMEASIDENTIFIER___RouterInput: class {
+    func closeCurrentModule()
 }

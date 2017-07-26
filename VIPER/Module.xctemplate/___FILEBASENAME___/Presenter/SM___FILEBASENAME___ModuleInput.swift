@@ -10,6 +10,6 @@
 
 import Foundation
 
-protocol ___FILEBASENAMEASIDENTIFIER___RouterInput: class {
-    func closeCurrentModule()
+protocol SM___FILEBASENAME___ModuleInput: class {
+    
 }

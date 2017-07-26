@@ -8,8 +8,11 @@
 //  ___ORGANIZATIONNAME___ ___YEAR___
 //
 
+// MARK: Imports
+
 import Foundation
 
-protocol ___FILEBASENAMEASIDENTIFIER___InteractorOutput: class {
-    func didObtainTitle(text: String)
+protocol SM___FILEBASENAMEASIDENTIFIER___ViewOutput: class {
+	func didLoadView()
+    func didBtBackClicked()
 }

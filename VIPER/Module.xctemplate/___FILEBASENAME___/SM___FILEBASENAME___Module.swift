@@ -10,30 +10,30 @@
 
 import UIKit
 
-final class ___FILEBASENAMEASIDENTIFIER___Module {
+final class SM___FILEBASENAMEASIDENTIFIER___Module {
     
     private var viewController: ___FILEBASENAMEASIDENTIFIER___ViewController?
     
     var view: UIViewController
     {
         guard let view = viewController else {
-            viewController = ___FILEBASENAMEASIDENTIFIER___ViewController(nibName: <#T##String#>, bundle: nil)
+            viewController = SM___FILEBASENAMEASIDENTIFIER___ViewController(nibName: <#T##String#>, bundle: nil)
             self.configureModule(view: viewController!)
             return viewController!
         }
         return view
     }
     
-    private func configureModule(view: ___FILEBASENAMEASIDENTIFIER___ViewController)
+    private func configureModule(view: SM___FILEBASENAMEASIDENTIFIER___ViewController)
     {
-        let router = ___FILEBASENAMEASIDENTIFIER___Router()
+        let router = SM___FILEBASENAMEASIDENTIFIER___Router()
         router.view = view
         
-        let presenter = ___FILEBASENAMEASIDENTIFIER___Presenter()
+        let presenter = SM___FILEBASENAMEASIDENTIFIER___Presenter()
         presenter.view = view
         presenter.router = router
         
-        let interactor = ___FILEBASENAMEASIDENTIFIER___Interactor()
+        let interactor = SM___FILEBASENAMEASIDENTIFIER___Interactor()
         interactor.output = presenter
         
         presenter.interactor = interactor

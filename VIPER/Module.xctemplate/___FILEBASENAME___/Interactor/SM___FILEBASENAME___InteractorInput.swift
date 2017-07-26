@@ -10,6 +10,6 @@
 
 import Foundation
 
-protocol ___FILEBASENAMEASIDENTIFIER___ViewInput: class {
-    func updateViewWith(title: String)
+protocol SM___FILEBASENAMEASIDENTIFIER___InteractorInput: class {
+	func obtainTitle()
 }

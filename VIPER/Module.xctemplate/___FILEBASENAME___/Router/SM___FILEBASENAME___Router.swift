@@ -1,6 +1,6 @@
 //
 //  ___FILENAME___
-//  Project: ___PROJECTNAME___
+//  Project: SM___PROJECTNAME___
 //
 //  Module: ___VARIABLE_viperModuleName___
 //
@@ -10,7 +10,7 @@
 
 import UIKit
 
-final class ___FILEBASENAMEASIDENTIFIER___Router {
+final class SM___FILEBASENAMEASIDENTIFIER___Router {
     
 	weak var view: UIViewController!
     
@@ -22,7 +22,7 @@ final class ___FILEBASENAMEASIDENTIFIER___Router {
 }
 
 
-extension ___FILEBASENAMEASIDENTIFIER___Router: ___FILEBASENAME___RouterInput {
+extension SM___FILEBASENAMEASIDENTIFIER___Router: SM___FILEBASENAME___RouterInput {
     func closeCurrentModule() {
         let isModal =  (view.navigationController?.childViewControllers[0] == view || view.navigationController == nil)
         if isModal

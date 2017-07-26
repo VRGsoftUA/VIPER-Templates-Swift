@@ -10,9 +10,9 @@
 
 import Foundation
 
-final class ___FILEBASENAMEASIDENTIFIER___Interactor {
+final class SM___FILEBASENAMEASIDENTIFIER___Interactor {
     
-	weak var output: ___FILEBASENAMEASIDENTIFIER___InteractorOutput!
+	weak var output: SM___FILEBASENAMEASIDENTIFIER___InteractorOutput!
     
     #if DEBUG
     deinit {
@@ -22,7 +22,7 @@ final class ___FILEBASENAMEASIDENTIFIER___Interactor {
 }
 
 
-extension ___FILEBASENAMEASIDENTIFIER___Interactor: ___FILEBASENAMEASIDENTIFIER___InteractorInput {
+extension SM___FILEBASENAMEASIDENTIFIER___Interactor: SM___FILEBASENAMEASIDENTIFIER___InteractorInput {
 
 	func obtainTitle() {
 		output.didObtainTitle(text: "___FILEBASENAMEASIDENTIFIER___")

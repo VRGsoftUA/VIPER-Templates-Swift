@@ -1,6 +1,6 @@
 //
 //  ___FILENAME___
-//  Project: ___PROJECTNAME___
+//  Project: SM___PROJECTNAME___
 //
 //  Module: ___VARIABLE_viperModuleName___
 //
@@ -10,6 +10,6 @@
 
 import Foundation
 
-protocol  ___FILEBASENAME___ModuleOutput: class {
+protocol  SM___FILEBASENAME___ModuleOutput: class {
     
 }
