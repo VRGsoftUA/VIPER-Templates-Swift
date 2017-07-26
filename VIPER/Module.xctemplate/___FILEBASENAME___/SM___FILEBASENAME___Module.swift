@@ -14,8 +14,7 @@ final class SM___FILEBASENAMEASIDENTIFIER___Module {
     
     private var viewController: SM___FILEBASENAMEASIDENTIFIER___ViewController?
     
-    var view: UIViewController
-    {
+    var view: UIViewController {
         guard let view = viewController else {
             viewController = SM___FILEBASENAMEASIDENTIFIER___ViewController(nibName: <#T##String#>, bundle: nil)
             self.configureModule(view: viewController!)
@@ -24,8 +23,7 @@ final class SM___FILEBASENAMEASIDENTIFIER___Module {
         return view
     }
     
-    private func configureModule(view: SM___FILEBASENAMEASIDENTIFIER___ViewController)
-    {
+    private func configureModule(view: SM___FILEBASENAMEASIDENTIFIER___ViewController) {
         let router = SM___FILEBASENAMEASIDENTIFIER___Router()
         router.view = view
         

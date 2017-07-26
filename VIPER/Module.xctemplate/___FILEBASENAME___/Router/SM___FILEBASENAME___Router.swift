@@ -25,11 +25,9 @@ final class SM___FILEBASENAMEASIDENTIFIER___Router {
 extension SM___FILEBASENAMEASIDENTIFIER___Router: SM___FILEBASENAME___RouterInput {
     func closeCurrentModule() {
         let isModal =  (view.navigationController?.childViewControllers[0] == view || view.navigationController == nil)
-        if isModal
-        {
+        if isModal {
             view.dismiss(animated: true, completion: nil)
-        } else
-        {
+        } else {
             view.navigationController!.popViewController(animated: true)
         }
     }

@@ -31,8 +31,7 @@ extension SM___FILEBASENAMEASIDENTIFIER___Presenter: SM___FILEBASENAMEASIDENTIFI
 		interactor.obtainTitle()
 	}
     
-    func didBtBackClicked()
-    {
+    func didBtBackClicked() {
         router.closeCurrentModule()
     }
 }

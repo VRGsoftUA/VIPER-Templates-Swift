@@ -34,8 +34,7 @@ class SM___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController {
 
 extension SM___FILEBASENAMEASIDENTIFIER___ViewController: SM___FILEBASENAMEASIDENTIFIER___ViewInput {
 
-	func updateViewWith(title: String)
-    {
+	func updateViewWith(title: String) {
         self.title = title
     }
 }
