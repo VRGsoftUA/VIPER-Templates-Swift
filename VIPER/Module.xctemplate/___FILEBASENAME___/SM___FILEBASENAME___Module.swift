@@ -12,7 +12,7 @@ import UIKit
 
 final class SM___FILEBASENAMEASIDENTIFIER___Module {
     
-    private var viewController: ___FILEBASENAMEASIDENTIFIER___ViewController?
+    private var viewController: SM___FILEBASENAMEASIDENTIFIER___ViewController?
     
     var view: UIViewController
     {
