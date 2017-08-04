@@ -1,11 +1,11 @@
 ![Alt text](icon_swift_viper.png?raw=true "icon_swift_viper")
 
 # VIPER-Templates-Swift
-Includes default, storyboard and tests templates.
+Easy start to add VIPER architecture into your project. This kit includes: default, storyboard and test templates.
 
 ## Installing
 
-Run this command in your terminal:
+For using just run this command in your terminal:
 
 > mkdir -p ~/Library/Developer/Xcode/Templates/File\ Templates <br />
 > cd ~/Library/Developer/Xcode/Templates/File\ Templates <br />
